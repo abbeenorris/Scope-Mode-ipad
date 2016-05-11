@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="-3222" y="-710"/>
         </scene>
-        <!--Animation-->
+        <!--Animation Controller-->
         <scene sceneID="vg1-vO-Lky">
             <objects>
-                <viewController id="33d-6i-43T" customClass="animation" sceneMemberID="viewController">
+                <viewController id="33d-6i-43T" customClass="AnimationController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Cw9-BT-fVb"/>
                         <viewControllerLayoutGuide type="bottom" id="key-eF-Pqc"/>
@@ -308,10 +308,10 @@
             </objects>
             <point key="canvasLocation" x="-682" y="-1509"/>
         </scene>
-        <!--Live Action-->
+        <!--Live Action Controller-->
         <scene sceneID="N1R-hb-zf4">
             <objects>
-                <viewController id="UOG-Oi-CJu" customClass="liveAction" sceneMemberID="viewController">
+                <viewController id="UOG-Oi-CJu" customClass="LiveActionController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hka-Hr-u3B"/>
                         <viewControllerLayoutGuide type="bottom" id="mkm-MT-BKY"/>
@@ -377,10 +377,10 @@
             </objects>
             <point key="canvasLocation" x="-1598" y="-672"/>
         </scene>
-        <!--Video Selection-->
+        <!--Video Selection Controller-->
         <scene sceneID="IPf-9c-Tmk">
             <objects>
-                <viewController id="iQS-ie-yZ8" customClass="videoSelection" sceneMemberID="viewController">
+                <viewController id="iQS-ie-yZ8" customClass="VideoSelectionController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YFB-V8-A0q"/>
                         <viewControllerLayoutGuide type="bottom" id="DO4-qf-wpI"/>
@@ -520,10 +520,10 @@
             </objects>
             <point key="canvasLocation" x="-376" y="-614"/>
         </scene>
-        <!--Mixed Media-->
+        <!--Mixed Media Controller-->
         <scene sceneID="OJw-tH-M6A">
             <objects>
-                <viewController id="3bk-oe-exS" customClass="mixedMedia" sceneMemberID="viewController">
+                <viewController id="3bk-oe-exS" customClass="MixedMediaController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="V4E-32-hhv"/>
                         <viewControllerLayoutGuide type="bottom" id="jZa-2y-bUy"/>
@@ -747,10 +747,10 @@
             </objects>
             <point key="canvasLocation" x="1555" y="-1521"/>
         </scene>
-        <!--Characters-->
+        <!--Characters Controller-->
         <scene sceneID="Pgm-lx-d98">
             <objects>
-                <viewController id="qjV-Bd-DT3" customClass="characters" sceneMemberID="viewController">
+                <viewController id="qjV-Bd-DT3" customClass="CharactersController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rpz-z7-2iW"/>
                         <viewControllerLayoutGuide type="bottom" id="hbf-uG-4UD"/>
@@ -803,10 +803,10 @@
             </objects>
             <point key="canvasLocation" x="743" y="-614"/>
         </scene>
-        <!--Part Production-->
+        <!--Part Production Controller-->
         <scene sceneID="IaP-Kk-VUc">
             <objects>
-                <viewController id="zHa-sf-bCy" customClass="partProduction" sceneMemberID="viewController">
+                <viewController id="zHa-sf-bCy" customClass="PartProductionController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g7Q-Sj-bhs"/>
                         <viewControllerLayoutGuide type="bottom" id="IRh-zC-NOi"/>
@@ -989,10 +989,10 @@
             </objects>
             <point key="canvasLocation" x="743" y="1211"/>
         </scene>
-        <!--Scenes-->
+        <!--Scenes Controller-->
         <scene sceneID="xKU-yY-aBV">
             <objects>
-                <viewController id="Zrt-xt-wt3" customClass="scenes" sceneMemberID="viewController">
+                <viewController id="Zrt-xt-wt3" customClass="ScenesController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ffh-Y1-dGt"/>
                         <viewControllerLayoutGuide type="bottom" id="tEb-sW-EvK"/>
@@ -1045,10 +1045,10 @@
             </objects>
             <point key="canvasLocation" x="-376" y="305"/>
         </scene>
-        <!--Summary-->
+        <!--Scenes Controller-->
         <scene sceneID="p9k-Ny-lHM">
             <objects>
-                <viewController id="QMS-0f-ith" customClass="summary" sceneMemberID="viewController">
+                <viewController id="QMS-0f-ith" customClass="ScenesController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hYb-NO-w7J"/>
                         <viewControllerLayoutGuide type="bottom" id="UKb-xl-9dY"/>
@@ -1352,10 +1352,10 @@
             </objects>
             <point key="canvasLocation" x="-2590" y="1211"/>
         </scene>
-        <!--Running Time-->
+        <!--Running Time Controller-->
         <scene sceneID="dny-Kx-qhz">
             <objects>
-                <viewController id="OAy-rf-7K7" customClass="runningTime" sceneMemberID="viewController">
+                <viewController id="OAy-rf-7K7" customClass="RunningTimeController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rzm-0z-ICM"/>
                         <viewControllerLayoutGuide type="bottom" id="woq-Q8-IWQ"/>
@@ -1472,10 +1472,10 @@
             </objects>
             <point key="canvasLocation" x="2682" y="-1521"/>
         </scene>
-        <!--Pre Production-->
+        <!--Pre Production Controller-->
         <scene sceneID="NIc-wk-D8o">
             <objects>
-                <viewController id="Khm-tW-sMH" customClass="preProduction" sceneMemberID="viewController">
+                <viewController id="Khm-tW-sMH" customClass="PreProductionController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hf6-oR-40R"/>
                         <viewControllerLayoutGuide type="bottom" id="MjQ-xU-OKs"/>
@@ -1563,10 +1563,10 @@
             </objects>
             <point key="canvasLocation" x="1870" y="-614"/>
         </scene>
-        <!--Deadline-->
+        <!--Deadline Controller-->
         <scene sceneID="NSl-hB-PmV">
             <objects>
-                <viewController id="5lS-Pi-mrj" customClass="deadline" sceneMemberID="viewController">
+                <viewController id="5lS-Pi-mrj" customClass="DeadlineController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="232-k8-3xl"/>
                         <viewControllerLayoutGuide type="bottom" id="MJ9-wk-ENu"/>
@@ -1643,8 +1643,8 @@
         <image name="Image" width="858" height="283"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6CO-3D-XtQ"/>
         <segue reference="GuJ-G8-OSj"/>
-        <segue reference="pFP-JA-zSt"/>
+        <segue reference="TFn-D4-PHP"/>
+        <segue reference="6CO-3D-XtQ"/>
     </inferredMetricsTieBreakers>
 </document>

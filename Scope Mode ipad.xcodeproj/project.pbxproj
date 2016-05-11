@@ -12,6 +12,18 @@
 		7E4202FF1CE3B63B00B3DE8F /* PlatformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4202FE1CE3B63B00B3DE8F /* PlatformController.swift */; };
 		7E4203011CE3B6F300B3DE8F /* DescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203001CE3B6F300B3DE8F /* DescriptionController.swift */; };
 		7E4203031CE3B81B00B3DE8F /* StyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203021CE3B81B00B3DE8F /* StyleController.swift */; };
+		7E4203051CE3C39400B3DE8F /* LiveActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203041CE3C39400B3DE8F /* LiveActionController.swift */; };
+		7E4203071CE3C3DE00B3DE8F /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203061CE3C3DE00B3DE8F /* AnimationController.swift */; };
+		7E4203091CE3C40F00B3DE8F /* MixedMediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203081CE3C40F00B3DE8F /* MixedMediaController.swift */; };
+		7E42030B1CE3C45000B3DE8F /* VideoSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42030A1CE3C45000B3DE8F /* VideoSelectionController.swift */; };
+		7E42030D1CE3C48900B3DE8F /* CharactersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42030C1CE3C48900B3DE8F /* CharactersController.swift */; };
+		7E42030F1CE3C4C100B3DE8F /* PreProductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42030E1CE3C4C100B3DE8F /* PreProductionController.swift */; };
+		7E4203111CE3C50100B3DE8F /* ScenesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203101CE3C50100B3DE8F /* ScenesController.swift */; };
+		7E4203131CE3C52800B3DE8F /* PartProductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203121CE3C52800B3DE8F /* PartProductionController.swift */; };
+		7E4203151CE3C55E00B3DE8F /* DeadlineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203141CE3C55E00B3DE8F /* DeadlineController.swift */; };
+		7E4203171CE3C58600B3DE8F /* PostProductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203161CE3C58600B3DE8F /* PostProductionController.swift */; };
+		7E4203191CE3C5A600B3DE8F /* RunningTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203181CE3C5A600B3DE8F /* RunningTimeController.swift */; };
+		7E42031B1CE3C5C600B3DE8F /* SummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42031A1CE3C5C600B3DE8F /* SummaryController.swift */; };
 		F2C2E5301CE3270000F93776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E52F1CE3270000F93776 /* AppDelegate.swift */; };
 		F2C2E5321CE3270000F93776 /* ProjectNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E5311CE3270000F93776 /* ProjectNameController.swift */; };
 		F2C2E5351CE3270000F93776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C2E5331CE3270000F93776 /* Main.storyboard */; };
@@ -44,6 +56,18 @@
 		7E4202FE1CE3B63B00B3DE8F /* PlatformController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformController.swift; sourceTree = "<group>"; };
 		7E4203001CE3B6F300B3DE8F /* DescriptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionController.swift; sourceTree = "<group>"; };
 		7E4203021CE3B81B00B3DE8F /* StyleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleController.swift; sourceTree = "<group>"; };
+		7E4203041CE3C39400B3DE8F /* LiveActionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveActionController.swift; sourceTree = "<group>"; };
+		7E4203061CE3C3DE00B3DE8F /* AnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		7E4203081CE3C40F00B3DE8F /* MixedMediaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixedMediaController.swift; sourceTree = "<group>"; };
+		7E42030A1CE3C45000B3DE8F /* VideoSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSelectionController.swift; sourceTree = "<group>"; };
+		7E42030C1CE3C48900B3DE8F /* CharactersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersController.swift; sourceTree = "<group>"; };
+		7E42030E1CE3C4C100B3DE8F /* PreProductionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreProductionController.swift; sourceTree = "<group>"; };
+		7E4203101CE3C50100B3DE8F /* ScenesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenesController.swift; sourceTree = "<group>"; };
+		7E4203121CE3C52800B3DE8F /* PartProductionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartProductionController.swift; sourceTree = "<group>"; };
+		7E4203141CE3C55E00B3DE8F /* DeadlineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeadlineController.swift; sourceTree = "<group>"; };
+		7E4203161CE3C58600B3DE8F /* PostProductionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostProductionController.swift; sourceTree = "<group>"; };
+		7E4203181CE3C5A600B3DE8F /* RunningTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningTimeController.swift; sourceTree = "<group>"; };
+		7E42031A1CE3C5C600B3DE8F /* SummaryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryController.swift; sourceTree = "<group>"; };
 		F2C2E52C1CE3270000F93776 /* Scope Mode ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scope Mode ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2E52F1CE3270000F93776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C2E5311CE3270000F93776 /* ProjectNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectNameController.swift; sourceTree = "<group>"; };
@@ -114,9 +138,21 @@
 				7E4202FE1CE3B63B00B3DE8F /* PlatformController.swift */,
 				7E4203001CE3B6F300B3DE8F /* DescriptionController.swift */,
 				7E4203021CE3B81B00B3DE8F /* StyleController.swift */,
+				7E4203041CE3C39400B3DE8F /* LiveActionController.swift */,
+				7E4203061CE3C3DE00B3DE8F /* AnimationController.swift */,
+				7E4203081CE3C40F00B3DE8F /* MixedMediaController.swift */,
+				7E42030A1CE3C45000B3DE8F /* VideoSelectionController.swift */,
+				7E42030C1CE3C48900B3DE8F /* CharactersController.swift */,
+				7E42030E1CE3C4C100B3DE8F /* PreProductionController.swift */,
+				7E4203101CE3C50100B3DE8F /* ScenesController.swift */,
+				7E4203121CE3C52800B3DE8F /* PartProductionController.swift */,
+				7E4203141CE3C55E00B3DE8F /* DeadlineController.swift */,
+				7E4203161CE3C58600B3DE8F /* PostProductionController.swift */,
+				7E4203181CE3C5A600B3DE8F /* RunningTimeController.swift */,
+				7E42031A1CE3C5C600B3DE8F /* SummaryController.swift */,
 				F2C2E5331CE3270000F93776 /* Main.storyboard */,
-				F2C2E5361CE3270000F93776 /* Assets.xcassets */,
 				F2C2E5381CE3270000F93776 /* LaunchScreen.storyboard */,
+				F2C2E5361CE3270000F93776 /* Assets.xcassets */,
 				F2C2E53B1CE3270000F93776 /* Info.plist */,
 			);
 			path = "Scope Mode ipad";
@@ -271,13 +307,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4203111CE3C50100B3DE8F /* ScenesController.swift in Sources */,
 				7E4202FD1CE3B3C400B3DE8F /* BudgetController.swift in Sources */,
+				7E42030D1CE3C48900B3DE8F /* CharactersController.swift in Sources */,
 				F2C2E5321CE3270000F93776 /* ProjectNameController.swift in Sources */,
+				7E4203171CE3C58600B3DE8F /* PostProductionController.swift in Sources */,
 				7E4203031CE3B81B00B3DE8F /* StyleController.swift in Sources */,
 				7E4203011CE3B6F300B3DE8F /* DescriptionController.swift in Sources */,
+				7E4203091CE3C40F00B3DE8F /* MixedMediaController.swift in Sources */,
+				7E42030B1CE3C45000B3DE8F /* VideoSelectionController.swift in Sources */,
 				F2C2E5301CE3270000F93776 /* AppDelegate.swift in Sources */,
+				7E42031B1CE3C5C600B3DE8F /* SummaryController.swift in Sources */,
+				7E42030F1CE3C4C100B3DE8F /* PreProductionController.swift in Sources */,
 				7E4202FF1CE3B63B00B3DE8F /* PlatformController.swift in Sources */,
+				7E4203131CE3C52800B3DE8F /* PartProductionController.swift in Sources */,
+				7E4203071CE3C3DE00B3DE8F /* AnimationController.swift in Sources */,
+				7E4203191CE3C5A600B3DE8F /* RunningTimeController.swift in Sources */,
+				7E4203151CE3C55E00B3DE8F /* DeadlineController.swift in Sources */,
 				7E4202FB1CE3B18500B3DE8F /* VideoTypeController.swift in Sources */,
+				7E4203051CE3C39400B3DE8F /* LiveActionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
