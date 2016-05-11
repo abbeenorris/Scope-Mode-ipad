@@ -1,3 +1,11 @@
+// Hi kt, the code on this page doens't work, it wont pass the data in hiddenProjectVar(the data comes from ProjectNameConttroller and is passed through all the controllers up until this point) the problem is that we have 3 buttons on the page all going to different view controllers so i put the code to pass the data to the correct view controller into a active button which is linked the right segue but this doesn't work. Could you ask Kyle about this? thanks Sam.
+
+
+
+
+
+
+
 import Foundation
 import UIKit
 
@@ -11,14 +19,12 @@ class StyleController: UIViewController {
             DestViewController.hiddenProjectVar = hiddenProjectVar
             
         }
-
-        
     }
     @IBAction func aniBtn(sender: AnyObject) {
         
         func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-            let DestViewController : AnimationController = segue.destinationViewController as! AnimationController
-            DestViewController.hiddenProjectVar = hiddenProjectVar
+            let DestViewController2 : AnimationController = segue.destinationViewController as! AnimationController
+            DestViewController2.hiddenProjectVar = hiddenProjectVar
         
         }
     }
@@ -26,8 +32,8 @@ class StyleController: UIViewController {
     @IBAction func mixedBtn(sender: AnyObject) {
         
         func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-            let DestViewController : MixedMediaController = segue.destinationViewController as! MixedMediaController
-            DestViewController.hiddenProjectVar = hiddenProjectVar
+            let DestViewController3 : MixedMediaController = segue.destinationViewController as! MixedMediaController
+            DestViewController3.hiddenProjectVar = hiddenProjectVar
             
         }
         
@@ -37,7 +43,8 @@ class StyleController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        
     
     
     

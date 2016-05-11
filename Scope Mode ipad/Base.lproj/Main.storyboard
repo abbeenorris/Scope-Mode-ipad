@@ -112,7 +112,6 @@
                                 <state key="normal" title="Live Action"/>
                                 <connections>
                                     <action selector="liveBtn:" destination="bzZ-L3-x5x" eventType="touchUpInside" id="PXU-iC-9M0"/>
-                                    <segue destination="UOG-Oi-CJu" kind="show" id="bMd-bf-zfF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISn-pC-f8o">
@@ -129,6 +128,13 @@
                                 <connections>
                                     <action selector="mixedBtn:" destination="bzZ-L3-x5x" eventType="touchUpInside" id="BSP-F6-t2o"/>
                                     <segue destination="3bk-oe-exS" kind="show" id="YFL-UA-byd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRe-va-CHS">
+                                <rect key="frame" x="747" y="445" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="UOG-Oi-CJu" kind="show" id="FY1-zj-gmP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -318,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fsk-9l-dSu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-682" y="-1509"/>
+            <point key="canvasLocation" x="-700" y="-1625"/>
         </scene>
         <!--Live Action Controller-->
         <scene sceneID="N1R-hb-zf4">
@@ -387,7 +393,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b0t-u8-TVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1598" y="-672"/>
+            <point key="canvasLocation" x="-2130" y="-704"/>
         </scene>
         <!--Video Selection Controller-->
         <scene sceneID="IPf-9c-Tmk">
@@ -1657,7 +1663,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kyP-dg-kVG"/>
-        <segue reference="bMd-bf-zfF"/>
-        <segue reference="TFn-D4-PHP"/>
+        <segue reference="FY1-zj-gmP"/>
+        <segue reference="pFP-JA-zSt"/>
     </inferredMetricsTieBreakers>
 </document>
