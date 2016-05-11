@@ -891,10 +891,10 @@
             </objects>
             <point key="canvasLocation" x="743" y="305"/>
         </scene>
-        <!--Contact-->
+        <!--Contact Controller-->
         <scene sceneID="FBd-hc-DVI">
             <objects>
-                <viewController id="c7x-48-w2Y" customClass="contact" sceneMemberID="viewController">
+                <viewController id="c7x-48-w2Y" customClass="ContactController" customModule="Scope_Mode_ipad" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AU7-zz-gpw"/>
                         <viewControllerLayoutGuide type="bottom" id="th0-IF-KdS"/>
@@ -973,11 +973,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jjx-d0-VmE">
-                                <rect key="frame" x="755" y="625" width="49" height="30"/>
-                                <state key="normal" title="Submit">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lv-zI-S7Z">
+                                <rect key="frame" x="757" y="581" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="sendEmailButtonTapped:" destination="c7x-48-w2Y" eventType="touchUpInside" id="kei-T0-QEK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
