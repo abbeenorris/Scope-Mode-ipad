@@ -6,7 +6,6 @@ class VideoTypeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(hiddenProjectVar)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
