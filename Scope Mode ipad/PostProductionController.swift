@@ -8,5 +8,9 @@ class PostProductionController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : RunningTimeController = segue.destinationViewController as! RunningTimeController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

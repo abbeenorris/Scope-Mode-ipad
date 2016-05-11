@@ -9,4 +9,9 @@ class ScenesController: UIViewController {
     }
     
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : PartProductionController = segue.destinationViewController as! PartProductionController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

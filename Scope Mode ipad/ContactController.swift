@@ -4,9 +4,13 @@ import MessageUI
 
 class ContactController: UIViewController, MFMailComposeViewControllerDelegate {
     var hiddenProjectVar =  String()
+    var projectTitle = String()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        projectTitle = hiddenProjectVar
     }
     
     
@@ -35,7 +39,7 @@ class ContactController: UIViewController, MFMailComposeViewControllerDelegate {
         
         //touch only things in this block
         mailComposerVC.setToRecipients(["sam.gray22@gmail.com"])
-        mailComposerVC.setSubject("Sending you an in-app e-mail...")
+        mailComposerVC.setSubject( "company name" + projectTitle)
         mailComposerVC.setMessageBody("", isHTML: false)
         //end block
         return mailComposerVC

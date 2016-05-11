@@ -8,5 +8,10 @@ class LiveActionController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : AnimationController = segue.destinationViewController as! AnimationController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
     
 }

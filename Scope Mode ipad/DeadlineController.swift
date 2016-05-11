@@ -8,5 +8,9 @@ class DeadlineController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : PostProductionController = segue.destinationViewController as! PostProductionController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

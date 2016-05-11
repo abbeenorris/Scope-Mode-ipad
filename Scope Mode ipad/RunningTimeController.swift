@@ -8,5 +8,10 @@ class RunningTimeController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : SummaryController = segue.destinationViewController as! SummaryController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
     
 }

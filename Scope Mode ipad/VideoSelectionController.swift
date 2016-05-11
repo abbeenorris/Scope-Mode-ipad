@@ -7,6 +7,10 @@ class VideoSelectionController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : CharactersController = segue.destinationViewController as!  CharactersController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
     
 }

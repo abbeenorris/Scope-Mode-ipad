@@ -8,5 +8,9 @@ class StyleController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : LiveActionController = segue.destinationViewController as! LiveActionController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

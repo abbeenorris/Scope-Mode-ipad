@@ -7,6 +7,10 @@ class AnimationController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : MixedMediaController = segue.destinationViewController as! MixedMediaController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
     
 }

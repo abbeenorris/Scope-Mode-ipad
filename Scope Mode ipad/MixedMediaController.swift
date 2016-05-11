@@ -8,5 +8,9 @@ class MixedMediaController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : VideoSelectionController = segue.destinationViewController as! VideoSelectionController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

@@ -6,7 +6,12 @@ class BudgetController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(hiddenProjectVar)
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : PlatformController = segue.destinationViewController as! PlatformController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

@@ -8,14 +8,9 @@ class SummaryController: UIViewController {
         super.viewDidLoad()
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : ContactController = segue.destinationViewController as! ContactController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

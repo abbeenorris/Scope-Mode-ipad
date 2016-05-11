@@ -8,5 +8,9 @@ class PlatformController: UIViewController {
         super.viewDidLoad()
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : DescriptionController = segue.destinationViewController as! DescriptionController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
 }

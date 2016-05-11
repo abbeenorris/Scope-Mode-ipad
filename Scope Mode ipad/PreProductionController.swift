@@ -9,4 +9,10 @@ class PreProductionController: UIViewController {
     }
     
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : ScenesController = segue.destinationViewController as! ScenesController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
+    
 }

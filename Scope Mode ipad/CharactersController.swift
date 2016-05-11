@@ -8,5 +8,10 @@ class CharactersController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let DestViewController : PreProductionController = segue.destinationViewController as! PreProductionController
+        DestViewController.hiddenProjectVar = hiddenProjectVar
+        
+    }
     
 }

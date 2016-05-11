@@ -278,6 +278,13 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sNK-QH-rL9">
                                 <rect key="frame" x="612" y="522" width="51" height="31"/>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbf-ZS-EYF">
+                                <rect key="frame" x="826" y="594" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="LpJ-Tb-COa" kind="show" id="1Sa-lm-LeF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -286,9 +293,11 @@
                             <constraint firstItem="J7u-bJ-KM6" firstAttribute="top" secondItem="sHs-vq-p3Q" secondAttribute="top" id="4F7-O5-meM"/>
                             <constraint firstAttribute="trailing" secondItem="TKS-Ug-jHA" secondAttribute="trailing" constant="363" id="BgQ-aa-7gd"/>
                             <constraint firstItem="Dev-fP-Q92" firstAttribute="top" secondItem="Vsj-l3-Nyx" secondAttribute="top" id="Cr1-FM-cjH"/>
+                            <constraint firstAttribute="trailing" secondItem="nbf-ZS-EYF" secondAttribute="trailing" constant="152" id="DSs-hc-NqT"/>
                             <constraint firstItem="Vmp-ah-poe" firstAttribute="bottom" secondItem="TKS-Ug-jHA" secondAttribute="bottom" id="DTa-bA-jz6"/>
                             <constraint firstItem="Dev-fP-Q92" firstAttribute="leading" secondItem="J7u-bJ-KM6" secondAttribute="leading" id="JIp-nS-tci"/>
                             <constraint firstItem="Vsj-l3-Nyx" firstAttribute="leading" secondItem="sHs-vq-p3Q" secondAttribute="leading" id="JQe-6K-PLH"/>
+                            <constraint firstItem="I5A-qY-1hn" firstAttribute="top" secondItem="nbf-ZS-EYF" secondAttribute="bottom" constant="100" id="L0s-ii-xhL"/>
                             <constraint firstItem="Vmp-ah-poe" firstAttribute="leading" secondItem="Dev-fP-Q92" secondAttribute="leading" id="Pk4-5d-I8O"/>
                             <constraint firstItem="sNK-QH-rL9" firstAttribute="top" secondItem="sHs-vq-p3Q" secondAttribute="bottom" constant="21" id="ZhN-ax-X7c"/>
                             <constraint firstItem="I5A-qY-1hn" firstAttribute="top" secondItem="IGo-ql-aN2" secondAttribute="bottom" constant="215" id="g8X-lQ-iwQ"/>
