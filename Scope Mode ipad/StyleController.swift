@@ -11,6 +11,8 @@ import UIKit
 
 class StyleController: UIViewController {
     var hiddenProjectVar =  String()
+    var videoTypeVar = String()
+    var budgetVar = String()
     
     @IBAction func liveBtn(sender: AnyObject) {
         
