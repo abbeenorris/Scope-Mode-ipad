@@ -112,6 +112,7 @@
                                 <state key="normal" title="Live Action"/>
                                 <connections>
                                     <action selector="liveBtn:" destination="bzZ-L3-x5x" eventType="touchUpInside" id="PXU-iC-9M0"/>
+                                    <segue destination="UOG-Oi-CJu" kind="show" id="OK3-rk-gy5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISn-pC-f8o">
@@ -119,7 +120,7 @@
                                 <state key="normal" title="Animation"/>
                                 <connections>
                                     <action selector="aniBtn:" destination="bzZ-L3-x5x" eventType="touchUpInside" id="WFj-Ps-KT0"/>
-                                    <segue destination="33d-6i-43T" kind="show" id="kyP-dg-kVG"/>
+                                    <segue destination="33d-6i-43T" kind="show" id="7BU-hn-u7C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SX1-c5-DKZ">
@@ -127,14 +128,7 @@
                                 <state key="normal" title="Mixed Media "/>
                                 <connections>
                                     <action selector="mixedBtn:" destination="bzZ-L3-x5x" eventType="touchUpInside" id="BSP-F6-t2o"/>
-                                    <segue destination="3bk-oe-exS" kind="show" id="YFL-UA-byd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRe-va-CHS">
-                                <rect key="frame" x="747" y="445" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="UOG-Oi-CJu" kind="show" id="FY1-zj-gmP"/>
+                                    <segue destination="3bk-oe-exS" kind="show" id="4O0-4z-YrD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -211,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dSW-Sd-Qo0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2768" y="269"/>
+            <point key="canvasLocation" x="-3208" y="103"/>
         </scene>
         <!--Video Type Controller-->
         <scene sceneID="OW9-rW-XMu">
@@ -300,9 +294,9 @@
                                     <action selector="viralSiwtch:" destination="kZZ-4M-26h" eventType="valueChanged" id="rqc-f1-FES"/>
                                 </connections>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbf-ZS-EYF">
-                                <rect key="frame" x="826" y="594" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbf-ZS-EYF">
+                                <rect key="frame" x="834" y="594" width="30" height="30"/>
+                                <state key="normal" title="next"/>
                                 <connections>
                                     <segue destination="LpJ-Tb-COa" kind="show" id="3IJ-rv-g28"/>
                                 </connections>
@@ -630,7 +624,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0o-3U-6K6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1486" y="325"/>
+            <point key="canvasLocation" x="-2003" y="270"/>
         </scene>
         <!--Budget Controller-->
         <scene sceneID="lmG-LC-Ymt">
@@ -685,8 +679,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSt-ym-4HH">
-                                <rect key="frame" x="897" y="611" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="905" y="611" width="30" height="30"/>
+                                <state key="normal" title="next"/>
                                 <connections>
                                     <segue destination="381-w3-idf" kind="show" id="mBG-C0-Tjr"/>
                                 </connections>
@@ -743,20 +737,35 @@
                                 <color key="progressTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="trackTintColor" red="0.40000000596046448" green="0.80000001192092896" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </progressView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gQ6-df-XhM">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gQ6-df-XhM">
                                 <rect key="frame" x="591" y="369" width="51" height="31"/>
+                                <connections>
+                                    <action selector="tvSwitchPressed:" destination="381-w3-idf" eventType="valueChanged" id="Pqr-1U-951"/>
+                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGd-bH-w8H">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eGd-bH-w8H">
                                 <rect key="frame" x="591" y="421" width="51" height="31"/>
+                                <connections>
+                                    <action selector="onlineSwitchPressed:" destination="381-w3-idf" eventType="valueChanged" id="DpG-10-CAt"/>
+                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="31N-Ij-T0Z">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="31N-Ij-T0Z">
                                 <rect key="frame" x="591" y="478" width="51" height="31"/>
+                                <connections>
+                                    <action selector="cinemaSwitchPressed:" destination="381-w3-idf" eventType="valueChanged" id="ZDd-rj-Ylv"/>
+                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="17v-cv-SZ7">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="17v-cv-SZ7">
                                 <rect key="frame" x="591" y="541" width="51" height="31"/>
+                                <connections>
+                                    <action selector="eventSwitchPressed:" destination="381-w3-idf" eventType="valueChanged" id="Rb8-VP-6UY"/>
+                                </connections>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uyW-fR-f59">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uyW-fR-f59">
                                 <rect key="frame" x="591" y="600" width="51" height="31"/>
+                                <connections>
+                                    <action selector="corportateSwitchPressed:" destination="381-w3-idf" eventType="valueChanged" id="Ecp-B6-VTO"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnq-sg-E09">
                                 <rect key="frame" x="360" y="369" width="223" height="30"/>
@@ -782,20 +791,31 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jZ-eo-FM8">
+                                <rect key="frame" x="910" y="600" width="30" height="30"/>
+                                <state key="normal" title="next"/>
+                                <connections>
+                                    <segue destination="m2p-n9-PJR" kind="show" id="V4c-S5-1tv"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Q8-Jj-UI7">
                                 <rect key="frame" x="360" y="601" width="223" height="30"/>
                                 <state key="normal" title="Corporate">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="m2p-n9-PJR" kind="show" id="nuh-mj-TnJ"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="cinemaSwitch" destination="31N-Ij-T0Z" id="9RW-hA-YTD"/>
+                        <outlet property="corporateSwitch" destination="uyW-fR-f59" id="xoa-Vd-Cmh"/>
+                        <outlet property="eventSwitch" destination="17v-cv-SZ7" id="Eli-Kl-2An"/>
+                        <outlet property="onlineSwitch" destination="eGd-bH-w8H" id="4rg-7P-2Ve"/>
+                        <outlet property="tvSwitch" destination="gQ6-df-XhM" id="ilo-Xm-e1w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ea-91-D9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1701,8 +1721,8 @@
         <image name="Image" width="858" height="283"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kyP-dg-kVG"/>
-        <segue reference="FY1-zj-gmP"/>
-        <segue reference="pFP-JA-zSt"/>
+        <segue reference="GuJ-G8-OSj"/>
+        <segue reference="6CO-3D-XtQ"/>
+        <segue reference="TFn-D4-PHP"/>
     </inferredMetricsTieBreakers>
 </document>

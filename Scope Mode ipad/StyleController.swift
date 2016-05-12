@@ -13,6 +13,7 @@ class StyleController: UIViewController {
     var hiddenProjectVar =  String()
     var videoTypeVar = String()
     var budgetVar = String()
+    var platformVar = String()
     
     @IBAction func liveBtn(sender: AnyObject) {
         
@@ -45,7 +46,6 @@ class StyleController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
     
     

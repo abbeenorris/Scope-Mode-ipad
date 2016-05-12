@@ -23,8 +23,10 @@ class BudgetController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let projectTitle : PlatformController = segue.destinationViewController as! PlatformController
         projectTitle.hiddenProjectVar = hiddenProjectVar
+        
         let videoType : PlatformController = segue.destinationViewController as! PlatformController
         videoType.videoTypeVar = videoTypeVar
+        
         let budget : PlatformController = segue.destinationViewController as! PlatformController
         budget.budgetVar = budgetVar
         
