@@ -27,7 +27,7 @@ class DescriptionController: UIViewController {
         platform.platformVar = platformVar
         
         let description : StyleController = segue.destinationViewController as! StyleController
-        platform.descriptionVar = descriptionText.text!
+        description.descriptionVar = descriptionText.text!
         
     }
 }

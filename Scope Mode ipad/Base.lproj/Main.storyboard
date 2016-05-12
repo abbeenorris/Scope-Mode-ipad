@@ -1278,8 +1278,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="boe-3K-t7V">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="boe-3K-t7V">
                                 <rect key="frame" x="195" y="662" width="771" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="771" id="IJC-R2-Pub"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -1332,7 +1335,21 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <outlet property="projectTextField" destination="LsZ-hK-eSB" id="O5d-hM-wEt"/>
+                        <outlet property="DescriptionText" destination="UWr-C5-Glx" id="v7I-qR-8Vr"/>
+                        <outlet property="budgetText" destination="PKX-9T-w65" id="vVq-K0-ae1"/>
+                        <outlet property="charactersText" destination="o76-L1-6NF" id="E7g-CL-Q1D"/>
+                        <outlet property="deadlineText" destination="EcC-cN-gT3" id="7HS-Ss-SaX"/>
+                        <outlet property="partProductionText" destination="dbB-sP-fDc" id="aY3-da-8CU"/>
+                        <outlet property="platformText" destination="KpE-Ps-Vuz" id="fXE-dS-1eE"/>
+                        <outlet property="postProductionText" destination="RbK-ql-OVP" id="ghZ-z8-hDy"/>
+                        <outlet property="preProductionText" destination="hhm-lH-ycg" id="6Hj-kY-w0Q"/>
+                        <outlet property="projectText" destination="LsZ-hK-eSB" id="FhX-PL-HUf"/>
+                        <outlet property="runningTimeText" destination="Ilo-ZI-c5h" id="9KW-HV-Chr"/>
+                        <outlet property="scenesText" destination="z8Z-3c-1FU" id="l0E-2W-sA6"/>
+                        <outlet property="styleContinunedText" destination="yvl-ox-9Pn" id="k3E-l0-OKv"/>
+                        <outlet property="styleText" destination="eIp-FQ-aXU" id="byA-Xo-yOS"/>
+                        <outlet property="videoSelectedText" destination="boe-3K-t7V" id="kra-9s-mPO"/>
+                        <outlet property="videoTypeText" destination="V0h-76-eD4" id="DLB-m7-zK1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3AU-PR-hxW" userLabel="First Responder" sceneMemberID="firstResponder"/>
