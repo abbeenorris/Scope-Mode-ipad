@@ -3,6 +3,7 @@ import UIKit
 
 class BudgetController: UIViewController {
     var hiddenProjectVar =  String()
+    var videoTypeVar = String()
     var budgetVar = String()
     
     
