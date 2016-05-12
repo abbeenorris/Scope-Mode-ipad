@@ -7,7 +7,6 @@ class PlatformController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(budgetVar)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
