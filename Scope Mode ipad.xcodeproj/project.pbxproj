@@ -7,8 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E4202FB1CE3B18500B3DE8F /* VideoTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4202FA1CE3B18500B3DE8F /* VideoTypeController.swift */; };
+		7E4202FD1CE3B3C400B3DE8F /* BudgetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4202FC1CE3B3C400B3DE8F /* BudgetController.swift */; };
+		7E4202FF1CE3B63B00B3DE8F /* PlatformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4202FE1CE3B63B00B3DE8F /* PlatformController.swift */; };
+		7E4203011CE3B6F300B3DE8F /* DescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203001CE3B6F300B3DE8F /* DescriptionController.swift */; };
+		7E4203031CE3B81B00B3DE8F /* StyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203021CE3B81B00B3DE8F /* StyleController.swift */; };
+		7E4203051CE3C39400B3DE8F /* LiveActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203041CE3C39400B3DE8F /* LiveActionController.swift */; };
+		7E4203071CE3C3DE00B3DE8F /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203061CE3C3DE00B3DE8F /* AnimationController.swift */; };
+		7E4203091CE3C40F00B3DE8F /* MixedMediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203081CE3C40F00B3DE8F /* MixedMediaController.swift */; };
+		7E42030B1CE3C45000B3DE8F /* VideoSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42030A1CE3C45000B3DE8F /* VideoSelectionController.swift */; };
+		7E42030D1CE3C48900B3DE8F /* CharactersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42030C1CE3C48900B3DE8F /* CharactersController.swift */; };
+		7E42030F1CE3C4C100B3DE8F /* PreProductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42030E1CE3C4C100B3DE8F /* PreProductionController.swift */; };
+		7E4203111CE3C50100B3DE8F /* ScenesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203101CE3C50100B3DE8F /* ScenesController.swift */; };
+		7E4203131CE3C52800B3DE8F /* PartProductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203121CE3C52800B3DE8F /* PartProductionController.swift */; };
+		7E4203151CE3C55E00B3DE8F /* DeadlineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203141CE3C55E00B3DE8F /* DeadlineController.swift */; };
+		7E4203171CE3C58600B3DE8F /* PostProductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203161CE3C58600B3DE8F /* PostProductionController.swift */; };
+		7E4203191CE3C5A600B3DE8F /* RunningTimeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4203181CE3C5A600B3DE8F /* RunningTimeController.swift */; };
+		7E42031B1CE3C5C600B3DE8F /* SummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42031A1CE3C5C600B3DE8F /* SummaryController.swift */; };
+		7E42031D1CE3C85A00B3DE8F /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42031C1CE3C85A00B3DE8F /* ContactController.swift */; };
 		F2C2E5301CE3270000F93776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E52F1CE3270000F93776 /* AppDelegate.swift */; };
-		F2C2E5321CE3270000F93776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E5311CE3270000F93776 /* ViewController.swift */; };
+		F2C2E5321CE3270000F93776 /* ProjectNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2E5311CE3270000F93776 /* ProjectNameController.swift */; };
 		F2C2E5351CE3270000F93776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C2E5331CE3270000F93776 /* Main.storyboard */; };
 		F2C2E5371CE3270000F93776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C2E5361CE3270000F93776 /* Assets.xcassets */; };
 		F2C2E53A1CE3270000F93776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C2E5381CE3270000F93776 /* LaunchScreen.storyboard */; };
@@ -34,9 +52,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E4202FA1CE3B18500B3DE8F /* VideoTypeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTypeController.swift; sourceTree = "<group>"; };
+		7E4202FC1CE3B3C400B3DE8F /* BudgetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetController.swift; sourceTree = "<group>"; };
+		7E4202FE1CE3B63B00B3DE8F /* PlatformController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformController.swift; sourceTree = "<group>"; };
+		7E4203001CE3B6F300B3DE8F /* DescriptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionController.swift; sourceTree = "<group>"; };
+		7E4203021CE3B81B00B3DE8F /* StyleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleController.swift; sourceTree = "<group>"; };
+		7E4203041CE3C39400B3DE8F /* LiveActionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveActionController.swift; sourceTree = "<group>"; };
+		7E4203061CE3C3DE00B3DE8F /* AnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		7E4203081CE3C40F00B3DE8F /* MixedMediaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixedMediaController.swift; sourceTree = "<group>"; };
+		7E42030A1CE3C45000B3DE8F /* VideoSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSelectionController.swift; sourceTree = "<group>"; };
+		7E42030C1CE3C48900B3DE8F /* CharactersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersController.swift; sourceTree = "<group>"; };
+		7E42030E1CE3C4C100B3DE8F /* PreProductionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreProductionController.swift; sourceTree = "<group>"; };
+		7E4203101CE3C50100B3DE8F /* ScenesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenesController.swift; sourceTree = "<group>"; };
+		7E4203121CE3C52800B3DE8F /* PartProductionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartProductionController.swift; sourceTree = "<group>"; };
+		7E4203141CE3C55E00B3DE8F /* DeadlineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeadlineController.swift; sourceTree = "<group>"; };
+		7E4203161CE3C58600B3DE8F /* PostProductionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostProductionController.swift; sourceTree = "<group>"; };
+		7E4203181CE3C5A600B3DE8F /* RunningTimeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningTimeController.swift; sourceTree = "<group>"; };
+		7E42031A1CE3C5C600B3DE8F /* SummaryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryController.swift; sourceTree = "<group>"; };
+		7E42031C1CE3C85A00B3DE8F /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 		F2C2E52C1CE3270000F93776 /* Scope Mode ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scope Mode ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2E52F1CE3270000F93776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2C2E5311CE3270000F93776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2C2E5311CE3270000F93776 /* ProjectNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectNameController.swift; sourceTree = "<group>"; };
 		F2C2E5341CE3270000F93776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C2E5361CE3270000F93776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C2E5391CE3270000F93776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,10 +134,28 @@
 			isa = PBXGroup;
 			children = (
 				F2C2E52F1CE3270000F93776 /* AppDelegate.swift */,
-				F2C2E5311CE3270000F93776 /* ViewController.swift */,
+				F2C2E5311CE3270000F93776 /* ProjectNameController.swift */,
+				7E4202FA1CE3B18500B3DE8F /* VideoTypeController.swift */,
+				7E4202FC1CE3B3C400B3DE8F /* BudgetController.swift */,
+				7E4202FE1CE3B63B00B3DE8F /* PlatformController.swift */,
+				7E4203001CE3B6F300B3DE8F /* DescriptionController.swift */,
+				7E4203021CE3B81B00B3DE8F /* StyleController.swift */,
+				7E4203041CE3C39400B3DE8F /* LiveActionController.swift */,
+				7E4203061CE3C3DE00B3DE8F /* AnimationController.swift */,
+				7E4203081CE3C40F00B3DE8F /* MixedMediaController.swift */,
+				7E42030A1CE3C45000B3DE8F /* VideoSelectionController.swift */,
+				7E42030C1CE3C48900B3DE8F /* CharactersController.swift */,
+				7E42030E1CE3C4C100B3DE8F /* PreProductionController.swift */,
+				7E4203101CE3C50100B3DE8F /* ScenesController.swift */,
+				7E4203121CE3C52800B3DE8F /* PartProductionController.swift */,
+				7E4203141CE3C55E00B3DE8F /* DeadlineController.swift */,
+				7E4203161CE3C58600B3DE8F /* PostProductionController.swift */,
+				7E4203181CE3C5A600B3DE8F /* RunningTimeController.swift */,
+				7E42031A1CE3C5C600B3DE8F /* SummaryController.swift */,
+				7E42031C1CE3C85A00B3DE8F /* ContactController.swift */,
 				F2C2E5331CE3270000F93776 /* Main.storyboard */,
-				F2C2E5361CE3270000F93776 /* Assets.xcassets */,
 				F2C2E5381CE3270000F93776 /* LaunchScreen.storyboard */,
+				F2C2E5361CE3270000F93776 /* Assets.xcassets */,
 				F2C2E53B1CE3270000F93776 /* Info.plist */,
 			);
 			path = "Scope Mode ipad";
@@ -192,6 +246,7 @@
 				TargetAttributes = {
 					F2C2E52B1CE3270000F93776 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = E4Y6DA7TD6;
 					};
 					F2C2E53F1CE3270000F93776 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -255,8 +310,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C2E5321CE3270000F93776 /* ViewController.swift in Sources */,
+				7E4203111CE3C50100B3DE8F /* ScenesController.swift in Sources */,
+				7E4202FD1CE3B3C400B3DE8F /* BudgetController.swift in Sources */,
+				7E42030D1CE3C48900B3DE8F /* CharactersController.swift in Sources */,
+				F2C2E5321CE3270000F93776 /* ProjectNameController.swift in Sources */,
+				7E4203171CE3C58600B3DE8F /* PostProductionController.swift in Sources */,
+				7E4203031CE3B81B00B3DE8F /* StyleController.swift in Sources */,
+				7E42031D1CE3C85A00B3DE8F /* ContactController.swift in Sources */,
+				7E4203011CE3B6F300B3DE8F /* DescriptionController.swift in Sources */,
+				7E4203091CE3C40F00B3DE8F /* MixedMediaController.swift in Sources */,
+				7E42030B1CE3C45000B3DE8F /* VideoSelectionController.swift in Sources */,
 				F2C2E5301CE3270000F93776 /* AppDelegate.swift in Sources */,
+				7E42031B1CE3C5C600B3DE8F /* SummaryController.swift in Sources */,
+				7E42030F1CE3C4C100B3DE8F /* PreProductionController.swift in Sources */,
+				7E4202FF1CE3B63B00B3DE8F /* PlatformController.swift in Sources */,
+				7E4203131CE3C52800B3DE8F /* PartProductionController.swift in Sources */,
+				7E4203071CE3C3DE00B3DE8F /* AnimationController.swift in Sources */,
+				7E4203191CE3C5A600B3DE8F /* RunningTimeController.swift in Sources */,
+				7E4203151CE3C55E00B3DE8F /* DeadlineController.swift in Sources */,
+				7E4202FB1CE3B18500B3DE8F /* VideoTypeController.swift in Sources */,
+				7E4203051CE3C39400B3DE8F /* LiveActionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +471,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Scope Mode ipad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scopemodeipad.Scope-Mode-ipad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -409,10 +486,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Scope Mode ipad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scopemodeipad.Scope-Mode-ipad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -483,6 +564,7 @@
 				F2C2E5561CE3270000F93776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2C2E5571CE3270000F93776 /* Build configuration list for PBXNativeTarget "Scope Mode ipadTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +573,7 @@
 				F2C2E5591CE3270000F93776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2C2E55A1CE3270000F93776 /* Build configuration list for PBXNativeTarget "Scope Mode ipadUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +582,7 @@
 				F2C2E55C1CE3270000F93776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
