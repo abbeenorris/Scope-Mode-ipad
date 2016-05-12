@@ -3,14 +3,17 @@ import UIKit
 
 class DescriptionController: UIViewController {
     var hiddenProjectVar =  String()
+    var budgetVar = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let DestViewController : StyleController = segue.destinationViewController as! StyleController
-        DestViewController.hiddenProjectVar = hiddenProjectVar
+        let projectTitle : PlatformController = segue.destinationViewController as! PlatformController
+        projectTitle.hiddenProjectVar = hiddenProjectVar
+        let budget : PlatformController = segue.destinationViewController as! PlatformController
+        budget.budgetVar = budgetVar
         
     }
 }

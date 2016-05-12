@@ -9,8 +9,8 @@ class ProjectNameController: UIViewController {
 
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let DestViewController : VideoTypeController = segue.destinationViewController as! VideoTypeController
-        DestViewController.hiddenProjectVar = projectTextfield.text!
+        let projectTitle : VideoTypeController = segue.destinationViewController as! VideoTypeController
+        projectTitle.hiddenProjectVar = projectTextfield.text!
         
     }
 
