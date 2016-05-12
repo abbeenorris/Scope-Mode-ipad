@@ -7,10 +7,12 @@ class DescriptionController: UIViewController {
     var budgetVar = String()
     var platformVar = String()
     
+    @IBOutlet weak var descriptionText: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+   
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let projectTitle : StyleController = segue.destinationViewController as! StyleController
         projectTitle.hiddenProjectVar = hiddenProjectVar
@@ -23,6 +25,9 @@ class DescriptionController: UIViewController {
         
         let platform : StyleController = segue.destinationViewController as! StyleController
         platform.platformVar = platformVar
+        
+        let description : StyleController = segue.destinationViewController as! StyleController
+        platform.descriptionVar = descriptionText.text!
         
     }
 }

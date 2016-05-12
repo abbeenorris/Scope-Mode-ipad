@@ -14,6 +14,7 @@ class StyleController: UIViewController {
     var videoTypeVar = String()
     var budgetVar = String()
     var platformVar = String()
+    var descriptionVar = String()
     
     @IBAction func liveBtn(sender: AnyObject) {
         

@@ -1545,6 +1545,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="descriptionText" destination="zfX-41-yrE" id="pMU-bU-PTr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QFg-La-cxY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
